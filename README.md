@@ -4,7 +4,7 @@ Multiple datepicker for Angular.
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/package/@mozhn/datepicker) to install foobar.
+Use the package manager [npm](https://www.npmjs.com/package/@mozhn/datepicker) to install datepicker.
 
 ```bash
 npm install  angular-datepicker --save
