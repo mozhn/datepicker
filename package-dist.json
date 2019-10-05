@@ -1,0 +1,33 @@
+{
+	"name": "@mozhn/datepicker",
+	"version": "1.0.5",
+	"description": "Angular multiple datepicker",
+	"main": "bundles/npm-module-datepicker.umd.min.js",
+	"module": "index.js",
+	"typings": "index.d.ts",
+	"keywords": [
+		"angular2",
+		"angular 2",
+		"datepicker",
+		"multiple datepicker"
+	],
+	"author": {
+		"name": "mozhn",
+		"email": "mazlum@tuta.io"
+	},
+	"license": "",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"homepage": "",
+	"bugs": {
+		"url": ""
+	},
+	"peerDependencies": {
+		"@angular/core": "^8.2.8",
+		"reflect-metadata": "^0.1.8",
+		"rxjs": "^6.5.0",
+		"zone.js": "^0.9.1"
+	}
+}

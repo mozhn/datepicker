@@ -1,0 +1,49 @@
+{
+  "name": "datepicker",
+  "version": "1.0.0",
+  "author": {
+		"name": "Mazlum",
+		"email": "mazlum@tuta.io"
+	},
+  "description": "Angular multiple datepicker",
+  "keywords": [
+		"angular2",
+		"angular 2",
+		"datepicker",
+		"multiple datepicker"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf .tmp && rimraf dist",
+    "transpile": "ngc",
+    "package": "rollup -c",
+    "minify": "./node_modules/uglify-js/bin/uglifyjs dist/bundles/npm-module-datepicker.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/npm-module-datepicker.umd.min.js",
+    "copy": "cpx './package-dist.json' dist && renamer --find 'package-dist.json' --replace 'package.json' ./dist/*",
+    "build": "npm run clean && npm run transpile && npm run package && npm run minify && npm run copy"
+  },
+  "license": "GNU General Public License",
+  "homepage": "https://github.com/mozhn/datepicker",
+  "bugs": {
+    "url": "https://github.com/mozhn/datepicker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozhn/datepicker.git"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^8.2.8",
+    "@angular/compiler-cli": "^8.2.8",
+    "cpx": "^1.5.0",
+    "renamer": "^0.6.1",
+    "rimraf": "^2.5.4",
+    "rollup": "^0.41.4",
+    "typescript": "^3.5.3",
+    "uglify-js": "^2.7.5"
+  },
+  "dependencies": {
+    "@angular/common": "^8.2.8",
+    "@angular/core": "^8.2.8",
+    "rxjs": "^6.4.0",
+    "zone.js": "^0.9.1"
+  }
+}
