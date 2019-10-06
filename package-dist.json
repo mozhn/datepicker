@@ -1,6 +1,6 @@
 {
 	"name": "@mozhn/datepicker",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"description": "Angular multiple datepicker",
 	"main": "bundles/npm-module-datepicker.umd.min.js",
 	"module": "index.js",
@@ -15,14 +15,14 @@
 		"name": "mozhn",
 		"email": "mazlum@tuta.io"
 	},
-	"license": "",
+	"license": "GNU General Public License",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/mozhn/datepicker.git"
 	},
-	"homepage": "",
+	"homepage": "https://github.com/mozhn/datepicker",
 	"bugs": {
-		"url": ""
+		"url": "https://github.com/mozhn/datepicker/issues"
 	},
 	"peerDependencies": {
 		"@angular/core": "^8.2.8",
