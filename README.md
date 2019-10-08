@@ -7,7 +7,7 @@ Multiple datepicker for Angular.
 Use the package manager [npm](https://www.npmjs.com/package/@mozhn/datepicker) to install datepicker.
 
 ```bash
-npm install  angular-datepicker --save
+npm install @mozhn/datepicker --save
 ```
 
 ## Usage
