@@ -1,6 +1,6 @@
 {
 	"name": "@mozhn/datepicker",
-	"version": "1.0.6",
+	"version": "1.0.11",
 	"description": "Angular multiple datepicker",
 	"main": "bundles/npm-module-datepicker.umd.min.js",
 	"module": "index.js",
