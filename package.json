@@ -2,15 +2,15 @@
   "name": "datepicker",
   "version": "1.0.0",
   "author": {
-		"name": "mozhn",
-		"email": "mazlum@tuta.io"
-	},
+    "name": "mozhn",
+    "email": "mazlum@tuta.io"
+  },
   "description": "Angular multiple datepicker",
   "keywords": [
-		"angular2",
-		"angular 2",
-		"datepicker",
-		"multiple datepicker"
+    "angular2",
+    "angular 2",
+    "datepicker",
+    "multiple datepicker"
   ],
   "main": "index.js",
   "scripts": {
